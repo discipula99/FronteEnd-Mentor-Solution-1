@@ -1,0 +1,84 @@
+:root { 
+    --color-slate-900: hsl(218, 44%, 22%);
+    --color-slate-500: hsl(216, 15%, 48%);
+    --color-slate-300: hsl(212, 45%, 89%);
+    --color-white: hsl(0, 0%, 100%);                                    
+}
+
+* ,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+img{
+    border-radius: 20px;
+    max-width: 100%;
+    display: block;
+    
+}
+
+
+/*Font Styles */
+/* outfit-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/outfit-v11-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* outfit-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/fonts/outfit-v11-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+ 
+body{
+    height: 100vh; /*It gives the area in which the card can be positioned, the vh indicates the screen viewport.*/
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    background-color: var(--color-slate-300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}     
+
+h2{
+    font-size: 1.375em;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-slate-900);
+    text-align: center;
+    padding-bottom: 16px;
+}
+      
+
+p{
+    font-size: 0.9375em;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    color: var(--color-slate-500);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+/*Styling card*/
+.card{
+    background-color: var(--color-white);
+    border-radius: 20px;
+    width: 320px;
+    padding: 16px;
+    
+}
+
+
+.info{
+    padding-top: 24px;
+}
