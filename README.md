@@ -33,12 +33,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Useful resources
 
-- [Example resource 1](https://gwfh.mranftl.com/fonts) - This helped me to download the fonts I needed, It is more simple to choose the right weight you want.
-- [Example resource 2](https://nekocalc.com/) - This is an amazing site to help you to calculate much faster the size fonts, from px to em and viceversa and much more. 
+- [Google-webfonts-helper](https://gwfh.mranftl.com/fonts) - This helped me to download the fonts I needed, It is more simple to choose the right weight you want.
+- [nekoCalc](https://nekocalc.com/) - This is an amazing site to help you to calculate much faster the size fonts, from px to em and viceversa and much more. 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@discipula99](https://www.frontendmentor.io/profile/discipula99)
+
 
 
 
